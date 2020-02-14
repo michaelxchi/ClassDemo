@@ -1,11 +1,30 @@
 body {
-    border: 4px solid purple;
+    border: 1px solid purple;
+}
+
+li {
+    border: 3px ridge blue;
+    box-shadow: 3px 5px 20px #888888;
+    margin: .2rem;
 }
 
 #navigation {
-
+    border: 3px inset darkblue;
+    background-color: hotpink;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #nav-menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    border: 3px outset green;
+    justify-content: flex-start;
+}
 
+#mybuttons {
+    border: 1px solid darkolivegreen;
 }
